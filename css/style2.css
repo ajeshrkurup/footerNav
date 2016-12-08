@@ -1,0 +1,164 @@
+
+
+
+.list-of-links {
+    padding: 0px;
+}
+
+.list-of-links  h3 {
+    
+    
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+
+.list-of-links ul li a:hover {
+    text-decoration: underline;
+} 
+
+.bgColorWhite {
+    background-color: #fff;
+}
+
+.bgColorGrey {
+    background-color: #eeeeee;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    
+    #footer-nav {
+        background-color: #EEEEEE;
+        padding: 20px 0px;
+    }
+    
+    .row:first-child {
+        border-top: 1px solid #cecece;
+    }
+    
+    .list-of-links  h3 {
+        border-bottom: 1px solid #cecece;
+        padding: .75em;
+        
+    }
+    
+    .list-of-links h3:hover {
+        cursor: pointer;
+
+    }
+    
+    .list-of-links ul li {
+        text-decoration: none;
+        border-bottom: 1px solid #cecece;
+    }
+
+    .row ul {
+        display: none;
+    }
+    
+    .list-of-links ul li a {
+        display: block;
+        margin-left: 2em;
+        padding: 1em 0;
+        color: #1570A6;
+        font-size: 16px;
+    }
+    
+    .mobile-hidden, .mobile-hidden-social {
+        display: none;
+    }
+    
+    span {
+        float: right;
+        color: #000;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .mobile-only-row {
+        margin-left: .75em;
+        margin-top: 1em;
+        color: #1570A6;
+        font-size: 16px;
+    }
+    
+    .mobile-only-row a:hover{
+        text-decoration: underline;
+    }
+    
+    .m-social {
+        margin-top: 15px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    #footer-nav {
+        background-color: #EEEEEE;
+        padding: 5%;
+    }
+    
+    .row:first-child {
+        border-top: none;
+    }
+    
+    .list-of-links  h3 {
+        border-bottom: none;
+        padding: 0px;
+        margin-bottom: .65em;
+        font-size: 16px;
+        
+    }
+    
+    .list-of-links h3:hover {
+        cursor: default;
+
+    }
+    
+    .list-of-links ul li {
+        text-decoration: none;
+        border-bottom: none;
+        margin-bottom: .7em;
+        font-size: .875em;
+    }
+    
+    ul {
+        display: block !important;
+        margin: 0 0 1.5em 0;
+        padding: .25em 0 .5em;
+    }
+    
+    .list-of-links ul li a {
+        display: inline;
+        margin-left: 0;
+        padding: 0;
+        color: #1570A6;
+        font-size: 14px;
+    }
+    
+    .mobile-hidden {
+        margin-top: 3em;
+    }
+    
+    .mobile-hidden-social {
+        margin-top: 0em;
+    }
+    
+    .social {
+        display: inline;
+    }
+
+    span {
+    display: none;
+    }
+    
+    .mobile-only-row {
+        display: none;
+    }
+}
+
